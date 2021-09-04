@@ -82,7 +82,7 @@
 
 ```bash
 # Initialize the latest stable branch
-$ repo init -u git://github.com/PitchBlackRecoveryProject/manifest_pb -b android-11.0
+$ repo init --depth=1 -u git://github.com/jayrfs/manifest_pb -b android-11.0
 
 # Sync the latest stable branch
 $ repo sync
